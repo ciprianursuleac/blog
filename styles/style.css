@@ -1,4 +1,4 @@
-﻿html{
+html{
 	background-color: white;
 	font-family: verdana; /*readability*/
 }
@@ -23,7 +23,7 @@ header{
 
 
 article	{
-	padding: 20px 80px 20px 80px;
+	padding: 14px 80px 14px 80px;
 	
 }
 
@@ -55,21 +55,22 @@ p, li {
 }
 
 img {
-	display: inline-block;
-	
-	margin: 0 auto;
+
+	align-self: center;
+	margin: 14px auto;
 	max-width: 100%;
 	height: auto;
 	max-height: 480px;
-	padding: 14px 14px 14px 14px;
-
 	
 }
-
-.row{
-	text-align: center;
-
+	
+.row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
+
+
 
 
 footer {
