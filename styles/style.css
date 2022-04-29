@@ -62,6 +62,8 @@ img {
 	height: auto;
 	max-height: 480px;
 	
+	pointer-events: none;
+	
 }
 	
 .row {
